@@ -106,6 +106,7 @@ h5 {font-family: 'Ubuntu Condensed', sans-serif;
   font-style: italic;
   text-align: center;
   box-sizing: content-box;  
+  float:inline-start;
   width: 200px;
   height: 200px;
   line-height: 200px;
@@ -143,20 +144,21 @@ html {
   background: rgba(94, 94, 96, 0.89);
   padding: 50px;
   text-align: center;
-  border-style: solid;
+  border-style: none;
   border-width: 5px;
   color:rgb(0, 0, 0);
   border-color:rgb(38, 200, 119);
-  border-radius: 40px;
+  border-style: solid;
 }
 
 /* Images */
 img {
-  width: 100%;
+  width: 70%;
   height: auto;
   border-style:solid;
-  border-color: black;
+  border-color: rgb(38, 200, 119);
   border-width: 5px;
+  float: inline-end;
 }
 
 /* Icons */

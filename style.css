@@ -23,34 +23,39 @@ a:hover, a:active {
   color: white;
 }
 
-/* Overall body style */
+/* Headers and fonts */
 h1 {
-  font-family: 'Source Code Pro', monospace;
+  font-family:'Anonymous Pro', monospace;
   font-size: 40px;
 }
 h2 {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Anonymous Pro', monospace;
   font-size: 60px;
+  text-decoration-line: underline;
 }
 h3 {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Anonymous Pro', monospace;
   font-size: 30px;
 }
 
-h4 {font-family: 'Source Code Pro', monospace;
+h4 {font-family: 'Anonymous Pro', monospace;
   font-size: 17px;
 }
-h5 {font-family: 'Source Code Pro', monospace;
+h5 {font-family: 'Anonymous Pro', monospace;
   font-size: 20px;
   font-style: italic;
+  border-style: solid;
+  border-color:rgb(12, 46, 12)
 }
+p {font-family: 'Anonymous Pro', monospace;
+  font-size: 17px; }
 
 body {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Anonymous Pro', monospace;
   background-color: rgb(12, 46, 12);
   background-image: url("https://images4.alphacoders.com/520/52026.jpg")
 }
-
+/* Center content */
 .content {
   max-width: 800px;
   margin: auto;
@@ -59,6 +64,19 @@ body {
   text-align: center;
   border-style: solid;
   border-width: 5px;
+}
+/* Images */
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(19, 62, 34, 0.733);
+  margin-bottom: auto;
+  text-align: center;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
 }
 /* Footer */
 footer {

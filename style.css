@@ -1,82 +1,105 @@
 /* Header menu/buttons */
 #myHeader {
   background-color: none;
-  border-width: 5px;
-  color: black;
+  border-width: 1px;
+  color: rgb(38, 200, 119);
   padding: 30px;
   margin: 10px;
   text-align: center;
   font-size: 20px;
 }
-a:link, a:visited {
-  background-color: white;
-  color: black;
-  border: 5px solid rgb(0, 0, 0);
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+/* Buttons */
+.round-button {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  line-height:100px;
+  border: 2px solid rgb(38, 200, 119);
+  border-radius: 50%;
+  color:rgb(38, 200, 119);
+  text-align:center;
+  text-decoration:none;
+  background: rgba(94, 94, 96, 0.712);
+  box-shadow: 0 0 3px gray;
+  font-size:20px;
+  font-weight:bold;
 }
-
-a:hover, a:active {
-  background-color: rgb(19, 62, 34);
-  color: white;
+.round-button:hover {
+  background: rgba(0, 0, 0, 0.582);
+  color:rgb(38, 200, 119);
 }
 
 /* Headers and fonts */
 h1 {
-  font-family:'Anonymous Pro', monospace;
+  font-family:'Ubuntu Condensed', sans-serif;
   font-size: 40px;
 }
 h2 {
-  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 60px;
-  text-decoration-line: underline;
+  color:rgb(38, 200, 119)
 }
 h3 {
-  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 30px;
 }
 
-h4 {font-family: 'Anonymous Pro', monospace;
+h4 {font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 17px;
 }
-h5 {font-family: 'Anonymous Pro', monospace;
-  font-size: 20px;
+h5 {font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 25px;
   font-style: italic;
-  border-style: solid;
-  border-color:rgb(12, 46, 12)
+  text-align: center;
+  box-sizing: content-box;  
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  padding: 30px;  
+  margin:auto;
+  border: 5px solid rgb(38, 200, 119);
+  border-radius: 50%;
+  color:rgb(0, 0, 0);
 }
-p {font-family: 'Anonymous Pro', monospace;
-  font-size: 17px; }
 
+p {font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+  color:rgb(0, 0, 0);
+  text-decoration: bold; 
+}
+/* Background */
 body {
-  font-family: 'Anonymous Pro', monospace;
-  background-color: rgb(12, 46, 12);
-  background-image: url("https://images4.alphacoders.com/520/52026.jpg")
+  font-family: 'Ubuntu Condensed', sans-serif;
+  background-color: none; 
+}
+
+html { 
+  background: url(https://img.freepik.com/free-vector/halftone-dots-background-with-circles_23-2148907693.jpg?w=1380&t=st=1680194657~exp=1680195257~hmac=384a8ee628aa0c811245a4094993a1e2db3634a2e4fdd4afe53a73b220fc2fd3) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 /* Center content */
 .content {
   max-width: 800px;
   margin: auto;
-  background: rgb(255, 255, 255);
+  background: rgba(94, 94, 96, 0.89);
   padding: 50px;
   text-align: center;
   border-style: solid;
   border-width: 5px;
+  color:rgb(0, 0, 0);
+  border-color:rgb(38, 200, 119);
+  border-radius: 40px;
 }
 /* Images */
-div.polaroid {
+img {
   width: 100%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(19, 62, 34, 0.733);
-  margin-bottom: auto;
-  text-align: center;
-}
-
-div.container {
-  text-align: center;
-  padding: 10px 20px;
+  height: auto;
+  border-style:solid;
+  border-color: black;
+  border-width: 5px;
 }
 /* Footer */
 footer {

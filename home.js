@@ -1,0 +1,2 @@
+// Alert
+alert("Hello world")

@@ -1,0 +1,74 @@
+/* Header menu/buttons */
+#myHeader {
+    background-color: none;
+    border-width: 5px;
+    color: black;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(19, 62, 34);
+    color: white;
+  }
+
+  /* Overall body style */
+  h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 17px;
+}
+h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+}
+
+h5 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+    border-bottom: solid;
+    border-width: 7px;
+    margin: 5px;
+    padding: 10px;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(12, 46, 12);
+    background-image: url("https://images4.alphacoders.com/520/52026.jpg")
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+  }
+   /* Footer */
+   footer {
+        text-align: center;
+        padding: 40px;
+        background-color: none;
+      }

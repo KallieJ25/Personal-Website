@@ -18,7 +18,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 4px 0;
+  margin: 5px 0;
 }
 
 .social-buttons a::before {
@@ -52,8 +52,9 @@
   background-color: none;
   border-width: 1px;
   color: rgb(38, 200, 119);
-  padding: 30px;
-  margin: 10px;
+  padding: 5px;
+  margin: 2px;
+  margin-top: 5px;
   text-align: center;
   font-size: 20px;
 }
@@ -61,6 +62,9 @@
 /* Buttons */
 .round-button {
   display:inline-block;
+  padding: .5%;
+  margin-top: auto;
+  margin:1%;
   width:100px;
   height:100px;
   line-height:100px;
@@ -113,6 +117,7 @@ h5 {font-family: 'Ubuntu Condensed', sans-serif;
   padding: 30px;  
   margin:auto;
   border: 5px solid rgb(38, 200, 119);
+  background-color: rgba(94, 94, 96);
   border-radius: 50%;
   color:rgb(0, 0, 0);
 }
@@ -144,13 +149,67 @@ html {
   background: rgba(94, 94, 96, 0.89);
   padding: 50px;
   text-align: center;
-  border-style: none;
   border-width: 5px;
   color:rgb(0, 0, 0);
   border-color:rgb(38, 200, 119);
   border-style: solid;
 }
-
+/* Home page content */
+div.welcome {
+  margin:32%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 100px;
+  display:inline-block;
+  width: 450px;
+  height:450px;
+  line-height:50px;
+  border: 5px solid rgb(38, 200, 119);
+  border-radius: 50%;
+  color:rgb(0, 0, 0);
+  text-align:center;
+  text-decoration:none;
+  background: rgba(94, 94, 96, 0.712);
+  box-shadow: 0 0 3px gray;
+  font-size:20px;
+  font-weight:bold;
+}
+div.about {
+  margin:32%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 100px;
+  display:inline-block;
+  width: 470px;
+  height:470px;
+  line-height:40px;
+  border: 5px solid rgb(38, 200, 119);
+  border-radius: 50%;
+  color:rgb(0, 0, 0);
+  text-align:center;
+  background: rgba(94, 94, 96, 0.712);
+  box-shadow: 0 0 3px gray;
+  font-size:20px;
+  font-weight:bold;
+}
+div.port {
+  margin:37%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 70px;
+  display:block;
+  width: 350px;
+  height:350px;
+  line-height:70px;
+  border: 5px solid rgb(38, 200, 119);
+  border-radius: 50%;
+  color:rgb(0, 0, 0);
+  text-align:center;
+  background: rgba(94, 94, 96, 0.712);
+  box-shadow: 0 0 3px gray;
+  font-size:20px;
+  font-weight:bold;
+}
 /* Images */
 img {
   width: 70%;
@@ -162,6 +221,26 @@ img {
 }
 
 /* Icons */
+
+/* grid */
+.grid-container {
+  display: grid;
+  grid-template-rows:1px 1px 1px;
+  grid-template-columns: auto auto auto;
+  background-color:none;
+  padding: 10px;
+  width:auto;
+}
+.grid-item {
+  background-color: none;
+  background-size: auto;
+  border: none;
+  padding: 10px;
+  margin:auto;
+  font-size: 30px;
+  text-align: center;
+  width: fit-content;
+}
 
 /* Footer */
 footer {
